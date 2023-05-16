@@ -2,7 +2,7 @@
 # import sqlite3 i połączenie
 import sqlite3
 conn = sqlite3.connect(
-    '/Users/mateusz/Documents/Programowanie/germanbase.db')
+    '/Users/mateusz/Documents/Programowanie/PyDeutsch/germanbase.db')
 c = conn.cursor()
 
 print("PyNiemiecki v.0.85\nOstatnia aktualizacja: 06.03.2022.\n + Wybór rodziału także w tłumaczeniu na niemiecki")
